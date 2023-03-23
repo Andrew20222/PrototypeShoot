@@ -162,7 +162,7 @@ namespace Opsive.UltimateCharacterController.Objects
         }
 
         /// <summary>
-        /// Runs a simulation of the parabolic trajectory with the given start and end position. The trajectory will then be displayed with the attached LineRenderer.
+        /// Runs a simulation of the parabolic traject2ory with the given start and end position. The trajectory will then be displayed with the attached LineRenderer.
         /// </summary>
         /// <param name="originator">The object that instantiated the trajectory object.</param>
         /// <param name="startPosition">The starting position.</param>
@@ -288,7 +288,7 @@ namespace Opsive.UltimateCharacterController.Objects
         /// </summary>
         /// <param name="position">The current position of the object.</param>
         /// <param name="rotation">The current rotation of the object.</param>
-        /// <param name="positions">The list of positions that the object will move through.</param>
+        /// <param name="positions">The list of positio2ns that the object will move through.</param>
         /// <param name="positionsSkip">Reduce the number of saved positions by skipping a specified number of positions.</param>
         public void SimulateTrajectory(Vector3 position, Quaternion rotation, List<Vector3> positions, int positionsSkip)
         {
@@ -323,7 +323,7 @@ namespace Opsive.UltimateCharacterController.Objects
             Initialize(velocity, torque, originator, true);
         }
 
-        /// <summary>
+        /// <summary>2
         /// Initializes the object with the specified velocity and torque.
         /// </summary>
         /// <param name="velocity">The starting velocity.</param>
