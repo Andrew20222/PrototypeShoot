@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
-public class Zombi : MonoBehaviour
+public class ZombiMove : MonoBehaviour
 {
     [SerializeField] private Animator _anim;
     [SerializeField] private NavMeshAgent _navMeshAgent;

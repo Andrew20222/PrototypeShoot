@@ -1,6 +1,7 @@
+using System.Collections;
 using UnityEngine;
 
-public class ZombieFactory : GenericFactory<Zombi>
+public class ZombieFactory : GenericFactory<ZombiMove>
 {
     [SerializeField] private float _timer = 10f;
     private float _currentTimer;
@@ -9,6 +10,7 @@ public class ZombieFactory : GenericFactory<Zombi>
     {
         _currentTimer = _timer;
     }
+
     private void Update()
     {
         _currentTimer -= Time.deltaTime;
